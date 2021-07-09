@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:background="#0583EA"
+                android:layout_height="85dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/create_account"
+                android:textSize="30sp"
+                android:layout_centerInParent="true"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:layout_marginTop="15dp"
+                android:background="#0583EA"/>
+        </RelativeLayout>
+    <TextView
+        style="@style/textview1"
+        android:text="@string/alma_lawson_example_com"
+        android:textSize="15sp" />
+    <View
+        style="@style/view1"/>
+
+    <TextView
+        style="@style/textview1"
+        android:text="@string/john_cooper" />
+    <View
+        style="@style/view1"/>
+    <TextView
+       style="@style/textview1"
+        android:text="@string/password" />
+    <View
+        style="@style/view1"/>
+    <TextView
+        style="@style/textview2"
+        android:text="@string/use_phone_number"
+        android:textColor="#0583EA"
+        android:layout_marginTop="10dp"/>
+    <Button
+       style="@style/textview2"
+        android:text="@string/sign_up"
+        android:paddingHorizontal="100dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/shape" />
+    <TextView
+        style="@style/textview2"
+        android:text="@string/or"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <View
+            android:id="@+id/ViewFacebook"
+            style="@style/view2"
+            android:background="@drawable/shape2" />
+        <ImageView
+            style="@style/imageViews"
+            android:src="@drawable/ic_ion_logo_facebook__1_"
+            android:layout_marginTop="12dp" />
+        <TextView
+            style="@style/textViews3"
+            android:text="@string/continue_with_facebook"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+        <View
+            android:id="@+id/ViewGoogle"
+            style="@style/view2"
+            android:layout_below="@+id/ViewFacebook"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape3" />
+        <ImageView
+            style="@style/imageViews"
+            android:src="@drawable/ic_flat_color_icons_google__1_"
+            android:layout_marginTop="80dp" />
+        <TextView
+            style="@style/textViews3"
+            android:text="@string/continue_with_google"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="80dp"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,2 @@
+rootProject.name = "ScrollViewyou2"
+include ':app'

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ScrollViewWe</string>
+    <string name="enter_the_name_hint">Enter the name</string>
+    <string name="enter_the_id_hint">Enter the Id</string>
+    <string name="enter_date_of_birth_hint">Enter Date of Birth</string>
+    <string name="enter_the_blood_group_here_hint">Enter the Blood Group </string>
+    <string name="enter_state_hint">Enter state</string>
+    <string name="enter_district_hint">Enter District</string>
+    <string name="enter_phone_number_hint">Enter phone number</string>
+    <string name="enter_the_address_hint">Enter the address</string>
+</resources>
